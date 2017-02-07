@@ -1,0 +1,62 @@
+<% include Partial/Header.ejs%>
+<% include Partial/content.ejs%>
+
+<h1>You want to contact me?</h1>
+
+<form class="form-horizontal">
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="name">Your name</label>
+    <div class="col-sm-2">
+      <input type="name" class="form-control" id="name" placeholder="Enter name">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="email">Email:</label>
+    <div class="col-sm-2">
+      <input type="email" class="form-control" id="email" placeholder="Enter email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="name">Message :</label>
+    <div class="col-sm-2">
+      <input type="name" class="form-control" id="name" placeholder="What do u want to say to me.......">
+    </div>
+  </div>
+
+
+  <script>
+    $('#good').submit();
+  </script>
+
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button style="color: #5cb85c" type="submit"  class="btn btn-default">Submit</button>
+    </div>
+  </div>
+</form>
+<div class="container">
+  <div class="col-sm-8 col-sm-offset-2 text-center">
+
+    <ul class="list-inline center-block">
+
+      <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" title="Click to share page on Facebook" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+      </a>
+      <!-- Google+ -->
+      <a href="https://plus.google.com/share?url=https://simplesharebuttons.com"  title="Click to share page on Google"target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
+      </a>
+      <!-- Twitter -->
+      <a href="https://twitter.com/share?url=https://simplesharebuttons.com"  title="Click to share page on Twitter" &amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+      </a>
+    </ul>
+
+  </div><!--/col-->
+</div><!--/container-->
+
+
+
+
+
+<% include Partial/footer.ejs%>
